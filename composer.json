@@ -1,0 +1,25 @@
+{
+    "name": "goldenbirdlabs/replaceassetsbundle",
+    "type": "symfony-bundle",
+    "description": "This bundle replace tags ('img','src','js',...) with 'asset' path",
+    "keywords": ["asset", "bundle", "replace", "path"],
+    "homepage": "http://github.com/GoldenBirdLabs/ReplaceAssetsBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Júlio César Lacerda",
+            "email": "julio.zero@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": ">=2.1,<2.2-dev"
+    },
+    "autoload": {
+        "psr-0": { "GoldenBirdLabs\\ReplaceAssetsBundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "GoldenBirdLabs/ReplaceAssetsBundle"
+}
